@@ -1,0 +1,10 @@
+server:
+  port: 8989
+  context-path: /springboot
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:oracle:thin:@192.168.0.67:1521:xe
+    driver-class-name: oracle.jdbc.OracleDriver
+    username: hr
+    password: hy
